@@ -93,7 +93,7 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <link rel="manifest" href="index.manifest.json">
-
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>html,body{margin:0!important;padding:0!important;width:100%;height:100%;height:100dvh;background:#010711;overflow:hidden;overscroll-behavior:none}body{position:fixed;inset:0}canvas{display:block;width:100%!important;height:100%!important;touch-action:none;outline:none}#rift-orientation{display:none;position:fixed;inset:0;z-index:99999;align-items:center;justify-content:center;text-align:center;padding:40px;background:#010711;color:#dff7ff;font:700 22px -apple-system,BlinkMacSystemFont,sans-serif} @media (orientation:landscape){#rift-orientation{display:flex}canvas{visibility:hidden}}</style><script>document.addEventListener("DOMContentLoaded",()=>{const d=document.createElement("div");d.id="rift-orientation";d.textContent="Rift Nomad se joue en mode portrait";document.body.appendChild(d);try{if(screen.orientation&&screen.orientation.lock){screen.orientation.lock("portrait").catch(()=>{})}}catch(e){}});</script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -112,7 +112,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":22469004,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"index.service.worker.js"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":22468124,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"index.service.worker.js"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
