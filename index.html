@@ -68,7 +68,7 @@
     window.addEventListener("pointerdown", requestLandscape, {once:true});
     window.addEventListener("touchstart", requestLandscape, {once:true, passive:true});
 
-    const engine = new Engine({"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":28035160,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4});
+    const engine = new Engine({"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":28043480,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4});
     engine.startGame().then(() => {
       const elapsed = performance.now() - bootStartedAt;
       const remaining = Math.max(0, 1050 - elapsed);
