@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0" stop-color="#17253a"/>
+      <stop offset="1" stop-color="#080b12"/>
+    </radialGradient>
+    <linearGradient id="visor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58d8ff"/>
+      <stop offset="1" stop-color="#b8f5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#f0c85b" stroke-width="10" opacity=".82"/>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#59d7ff" stroke-width="5" opacity=".28"/>
+  <path d="M256 115 L334 158 L356 263 L316 355 L256 389 L196 355 L156 263 L178 158 Z" fill="#171d28" stroke="#77869c" stroke-width="9"/>
+  <path d="M184 219 L328 219 L309 260 L203 260 Z" fill="url(#visor)"/>
+  <path d="M221 289 L256 310 L291 289 L282 346 L230 346 Z" fill="#384457"/>
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#58d8ff" stroke-width="3" stroke-dasharray="9 20" opacity=".45"/>
+  <path d="M108 375 L404 137" stroke="#f0c85b" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M108 375 L404 137" stroke="#fff3bd" stroke-width="4" stroke-linecap="round"/>
+</svg>
