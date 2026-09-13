@@ -1,7 +1,7 @@
 {
   "name": "Rift Nomad",
   "short_name": "Rift Nomad",
-  "start_url": "./index.html",
+  "start_url": "./index.html?v=69",
   "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#010711",
