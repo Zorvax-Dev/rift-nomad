@@ -1,0 +1,12 @@
+{
+  "name": "Rift Nomad",
+  "short_name": "Rift Nomad",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#010711",
+  "theme_color": "#010711",
+  "icons": [
+    {"src":"rift_nomad_icon.png","sizes":"any","type":"image/png","purpose":"any maskable"}
+  ]
+}
