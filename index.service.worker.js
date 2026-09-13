@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1789276380|4458122';
+const CACHE_VERSION = '1789277188|4505125';
 /** @type {string} */
 const CACHE_PREFIX = 'Rift Nomad-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
